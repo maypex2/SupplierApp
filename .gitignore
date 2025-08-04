@@ -5,3 +5,9 @@
 "appsettings.json" 
 "SuppliersDB/"   # Exclude your database directorygit add .
 ".vs/" 
+SuppliersDB/
+.vs
+.bin/
+obg/
+*.suo
+*.user

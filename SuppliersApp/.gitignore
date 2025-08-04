@@ -4,3 +4,9 @@
 ".env" 
 "appsettings.json" 
 "SuppliersDB/"   # Exclude your database directory
+SuppliersDB/
+.vs/
+bin/
+obj/
+*suo
+*.user
