@@ -7,9 +7,9 @@
     {
         public static class dbhelper
         {
-            private static string sharedFolder = @"C:\DBHOST\SharedFolder\";
-            private static string dbPath = Path.Combine(sharedFolder, "suppliers.db");
-            private static string connectionString = $"Data Source={dbPath};Version=3;Pooling=True;Max Pool Size=100;";
+        private static string sharedFolder = @"\\SuppliersApp\SharedFolder\";
+        private static string dbPath = @"C:\SuppliersApp\SuppliersDB\suppliers.db";
+        private static string connectionString = $"Data Source={dbPath};Version=3;Pooling=True;Max Pool Size=100;";
 
 
         public static void InitializeDatabase()

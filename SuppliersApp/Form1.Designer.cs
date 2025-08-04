@@ -87,7 +87,6 @@
             Supplier_representative = new Guna.UI2.WinForms.Guna2TextBox();
             Suppliername = new Guna.UI2.WinForms.Guna2TextBox();
             guna2ContainerControl3 = new Guna.UI2.WinForms.Guna2ContainerControl();
-            panel2 = new Panel();
             guna2ContainerControl5 = new Guna.UI2.WinForms.Guna2ContainerControl();
             printercontainer = new Guna.UI2.WinForms.Guna2ContainerControl();
             guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -393,7 +392,6 @@
             // guna2ContainerControl3
             // 
             guna2ContainerControl3.BorderColor = Color.WhiteSmoke;
-            guna2ContainerControl3.Controls.Add(panel2);
             guna2ContainerControl3.Controls.Add(guna2ContainerControl5);
             guna2ContainerControl3.Controls.Add(printercontainer);
             guna2ContainerControl3.Controls.Add(btnBurger);
@@ -404,11 +402,6 @@
             resources.ApplyResources(guna2ContainerControl3, "guna2ContainerControl3");
             guna2ContainerControl3.Name = "guna2ContainerControl3";
             guna2ContainerControl3.ShadowDecoration.CustomizableEdges = customizableEdges29;
-            // 
-            // panel2
-            // 
-            resources.ApplyResources(panel2, "panel2");
-            panel2.Name = "panel2";
             // 
             // guna2ContainerControl5
             // 
@@ -744,6 +737,5 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private Guna.UI2.WinForms.Guna2ContainerControl guna2ContainerControl5;
         private Panel panel1;
-        private Panel panel2;
     }
 }
