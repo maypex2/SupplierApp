@@ -11,3 +11,9 @@ SuppliersDB/
 obg/
 *.suo
 *.user
+"SuppliersDB/" 
+".vs/" 
+"bin/" 
+"obj/" 
+"*.suo" 
+"*.user" 
