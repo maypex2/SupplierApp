@@ -125,37 +125,6 @@ namespace SuppliersApp
             }
         }
 
-
-        //public void LoadSuppliers()
-        //{
-        //    try
-        //    {
-        //        suppliers_record.Rows.Clear();
-        //        DataTable suppliers = dbhelper.GetAllSuppliers();
-
-        //        DataView dv = suppliers.DefaultView;
-        //        dv.Sort = "Id ASC"; // Sort by ID in ascending order
-
-        //        foreach (DataRowView row in dv)
-        //        {
-        //            suppliers_record.Rows.Add(
-        //                row["Id"],
-        //                row["Name"],
-        //                dbhelper.GetCategoryNameById(Convert.ToInt32(row["CategoryId"])),
-        //                row["Supplier_Representative"],
-        //                row["Phone"],
-        //                row["Address"],
-        //                row["Email"]
-        //            );
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show($"Error loading suppliers: {ex.Message}");
-        //    }
-        //}
-
-
         private void btnsupplieradd_Click_1(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(Suppliername.Text))
@@ -272,21 +241,6 @@ namespace SuppliersApp
                 MessageBox.Show($"Error searching suppliers: {ex.Message}");
             }
         }
-
-
-        private void RefreshSupplierDisplay()
-        {
-            //if (selectcategory.SelectedIndex == 0)
-            //{
-            //    LoadAllSuppliers();
-            //}
-            //else
-            //{
-            //    string selectedCategory = selectcategory.SelectedItem.ToString();
-            //    LoadExactCategorySuppliers(selectedCategory);
-            //}
-        }
-
 
 
         //for supplier click to open form2 and display in data 

@@ -1,0 +1,6 @@
+"bin/" 
+"obj/" 
+"node_modules/" 
+".env" 
+"appsettings.json" 
+"SuppliersDB/"   # Exclude your database directory
