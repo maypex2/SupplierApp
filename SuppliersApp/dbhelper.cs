@@ -7,36 +7,38 @@
     {
         public static class dbhelper
         {
-        private static string sharedFolder = @"\\SuppliersApp\SharedFolder\";
         private static string dbPath = @"C:\SuppliersApp\SuppliersDB\suppliers.db";
         private static string connectionString = $"Data Source={dbPath};Version=3;Pooling=True;Max Pool Size=100;";
 
 
         public static void InitializeDatabase()
         {
-            if (!Directory.Exists(sharedFolder))
+            try
             {
-                try
+                string directory = Path.GetDirectoryName(dbPath);
+
+                // Create local directory if needed
+                if (!Directory.Exists(directory))
                 {
-                    Directory.CreateDirectory(sharedFolder);
+                    Directory.CreateDirectory(directory);
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error creating shared folder: {ex.Message}");
-                }
+
+                // Create tables if not exists
+                string createUsersTable = @"
+                CREATE TABLE IF NOT EXISTS Users (
+                Username TEXT PRIMARY KEY,
+                Password TEXT NOT NULL
+                )";
+                ExecuteNonQuery(createUsersTable);
+
+                // Add default users
+                AddUser("DapCWD", "Liza");
+                AddUser("dapcwd-melanie", "melanie123");
             }
-
-        
-            string createUsersTable = @"
-            CREATE TABLE IF NOT EXISTS Users (
-            Username TEXT PRIMARY KEY,
-            Password TEXT NOT NULL
-            )";
-            ExecuteNonQuery(createUsersTable);
-
-            // Add default users
-            AddUser("DapCWD", "Liza");
-            AddUser("dapcwd-melanie", "melanie123");
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Database init error: {ex.Message}");
+            }
         }
 
         public static bool AddUser(string username, string password)

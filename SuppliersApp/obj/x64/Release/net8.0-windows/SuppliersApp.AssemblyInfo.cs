@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuppliersApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf25bae838632dde99e8f124f24fff14a291f3c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+559b8879e181a23d46d33f9317cea4f27e3bdb01")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuppliersApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuppliersApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

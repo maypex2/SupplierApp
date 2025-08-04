@@ -7,6 +7,6 @@ static class Program
     {
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
-        Application.Run(new Form1()); // Changed from Form1 to Form3
+        Application.Run(new Form3()); // Changed from Form1 to Form3
     }
 }

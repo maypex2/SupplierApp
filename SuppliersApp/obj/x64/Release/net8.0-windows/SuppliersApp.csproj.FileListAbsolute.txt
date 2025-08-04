@@ -66,11 +66,5 @@ C:\SuppliersApp\SuppliersApp\SuppliersApp\obj\x64\Release\net8.0-windows\refint\
 C:\SuppliersApp\SuppliersApp\SuppliersApp\obj\x64\Release\net8.0-windows\SuppliersApp.pdb
 C:\SuppliersApp\SuppliersApp\SuppliersApp\obj\x64\Release\net8.0-windows\SuppliersApp.genruntimeconfig.cache
 C:\SuppliersApp\SuppliersApp\SuppliersApp\obj\x64\Release\net8.0-windows\ref\SuppliersApp.dll
-C:\SuppliersApp\SuppliersApp\SuppliersApp\bin\x64\Release\net8.0-windows\Costura.dll
-C:\SuppliersApp\SuppliersApp\SuppliersApp\bin\x64\Release\net8.0-windows\EntityFramework.SqlServer.dll
-C:\SuppliersApp\SuppliersApp\SuppliersApp\bin\x64\Release\net8.0-windows\EntityFramework.dll
-C:\SuppliersApp\SuppliersApp\SuppliersApp\bin\x64\Release\net8.0-windows\Guna.UI2.dll
-C:\SuppliersApp\SuppliersApp\SuppliersApp\bin\x64\Release\net8.0-windows\System.Data.SQLite.dll
-C:\SuppliersApp\SuppliersApp\SuppliersApp\bin\x64\Release\net8.0-windows\System.Data.SqlClient.dll
-C:\SuppliersApp\SuppliersApp\SuppliersApp\bin\x64\Release\net8.0-windows\System.Data.SQLite.EF6.dll
-C:\SuppliersApp\SuppliersApp\SuppliersApp\bin\x64\Release\net8.0-windows\System.Management.dll
+C:\SuppliersApp\SuppliersApp\SuppliersApp\obj\x64\Release\net8.0-windows\SuppliersApp.csproj.Fody.CopyLocal.cache
+C:\SuppliersApp\SuppliersApp\SuppliersApp\obj\x64\Release\net8.0-windows\SuppliersApp.csproj.Fody.RuntimeCopyLocal.cache
