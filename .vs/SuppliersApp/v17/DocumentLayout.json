@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{E88D2CEC-B233-4002-B496-8D0030ECB4BC}|SuppliersApp\\SuppliersApp.csproj|solutionrelative:suppliersapp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E88D2CEC-B233-4002-B496-8D0030ECB4BC}|SuppliersApp\\SuppliersApp.csproj|c:\\suppliersapp\\suppliersapp\\suppliersapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E88D2CEC-B233-4002-B496-8D0030ECB4BC}|SuppliersApp\\SuppliersApp.csproj|C:\\SuppliersApp\\SuppliersApp\\suppliersapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E88D2CEC-B233-4002-B496-8D0030ECB4BC}|SuppliersApp\\SuppliersApp.csproj|solutionrelative:suppliersapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -108,8 +108,7 @@
               "ToolTip": "C:\\SuppliersApp\\SuppliersApp\\SuppliersApp\\Form1.resx",
               "RelativeToolTip": "SuppliersApp\\Form1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-08-03T08:00:38.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T08:00:38.427Z"
             },
             {
               "$type": "Document",
@@ -121,8 +120,7 @@
               "RelativeToolTip": "SuppliersApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T03:14:27.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T03:14:27.632Z"
             },
             {
               "$type": "Document",
@@ -144,8 +142,7 @@
               "ToolTip": "C:\\SuppliersApp\\SuppliersApp\\SuppliersApp\\Form3.cs [Design]",
               "RelativeToolTip": "SuppliersApp\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T08:42:59.7Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-17T08:42:59.7Z"
             },
             {
               "$type": "Document",
@@ -168,8 +165,7 @@
               "RelativeToolTip": "SuppliersApp\\Form3.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T01:48:53.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T01:48:53.15Z"
             },
             {
               "$type": "Document",
@@ -204,8 +200,7 @@
               "ToolTip": "C:\\SuppliersApp\\SuppliersApp\\SuppliersApp\\Form1.cs [Design]",
               "RelativeToolTip": "SuppliersApp\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T01:27:49.586Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-16T01:27:49.586Z"
             },
             {
               "$type": "Document",
@@ -276,8 +271,7 @@
               "RelativeToolTip": "SuppliersApp\\Form1.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowHAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T07:01:22.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T07:01:22.535Z"
             },
             {
               "$type": "Document",
@@ -287,7 +281,7 @@
               "RelativeDocumentMoniker": "SuppliersApp\\dbhelper.cs",
               "ToolTip": "C:\\SuppliersApp\\SuppliersApp\\SuppliersApp\\dbhelper.cs",
               "RelativeToolTip": "SuppliersApp\\dbhelper.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T00:30:05.847Z",
               "EditorCaption": ""
@@ -302,8 +296,7 @@
               "RelativeToolTip": "SuppliersApp\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAM8CAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T09:00:15.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T09:00:15.365Z"
             }
           ]
         }

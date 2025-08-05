@@ -7,7 +7,7 @@
     {
         public static class dbhelper
         {
-        private static string dbPath = @"C:\SuppliersApp\SuppliersDB\suppliers.db";
+        private static string dbPath = @"C:\SuppliersApp\database\suppliers.db";
         private static string connectionString = $"Data Source={dbPath};Version=3;Pooling=True;Max Pool Size=100;";
 
 
@@ -25,15 +25,57 @@
 
                 // Create tables if not exists
                 string createUsersTable = @"
-                CREATE TABLE IF NOT EXISTS Users (
-                Username TEXT PRIMARY KEY,
-                Password TEXT NOT NULL
-                )";
+            CREATE TABLE IF NOT EXISTS Users (
+            Username TEXT PRIMARY KEY,
+            Password TEXT NOT NULL
+            )";
                 ExecuteNonQuery(createUsersTable);
 
-                // Add default users
+                // Categories table
+                string createCategoriesTable = @"
+            CREATE TABLE IF NOT EXISTS Categories (
+            Id INTEGER PRIMARY KEY AUTOINCREMENT,
+            category_type TEXT NOT NULL UNIQUE,
+            CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP
+            )";
+                ExecuteNonQuery(createCategoriesTable);
+
+                //  Suppliers table
+                string createSuppliersTable = @"
+            CREATE TABLE IF NOT EXISTS Suppliers (
+            Id INTEGER PRIMARY KEY AUTOINCREMENT,
+            Name TEXT NOT NULL,
+            CategoryId INTEGER NOT NULL,
+            Supplier_Representative TEXT,
+            Phone TEXT,
+            Address TEXT,
+            Email TEXT,
+            Philgeps TEXT,
+            DateRegistered DATETIME DEFAULT CURRENT_TIMESTAMP,
+            DateChanged DATETIME DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY(CategoryId) REFERENCES Categories(Id)
+            )";
+                ExecuteNonQuery(createSuppliersTable);
+
+                //  SupplierHistory table
+                string createHistoryTable = @"
+            CREATE TABLE IF NOT EXISTS SupplierHistory (
+            Id INTEGER PRIMARY KEY AUTOINCREMENT,
+            SupplierId INTEGER NOT NULL,
+            Name TEXT NOT NULL,
+            CategoryId INTEGER NOT NULL,
+            Supplier_Representative TEXT,
+            Phone TEXT,
+            Email TEXT,
+            DateChanged DATETIME,
+            FOREIGN KEY(SupplierId) REFERENCES Suppliers(Id)
+            )";
+                ExecuteNonQuery(createHistoryTable);
+
+                // default users
                 AddUser("DapCWD", "Liza");
                 AddUser("dapcwd-melanie", "melanie123");
+
             }
             catch (Exception ex)
             {
